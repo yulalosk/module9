@@ -1,5 +1,5 @@
 import random
-from random import choice
+
 first = 'Мама мыла раму'
 second = 'Рамена мало было'
 res = list(map(lambda x,y: x in y, first, second))
